@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //zoe ames
 //brittney spears
 //tori amos
@@ -22,3 +23,12 @@ const namePrinter = (firstName, lastName) => {
 
 namePrinter("Zoe", "Ames");
 namePrinter("Zoe", "Smith");
+=======
+console.log('hello');
+
+buildName = (firstName, lastName)=> {
+    console.log(`${firstName} ${lastName}`);
+}
+
+buildName('Zoe', 'Ames');
+>>>>>>> f60fa258ea112aa32ac596e70273fcb832b63233
