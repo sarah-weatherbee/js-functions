@@ -21,3 +21,4 @@ const namePrinter = (firstName, lastName) => {
 };
 
 namePrinter("Zoe", "Ames");
+namePrinter("Zoe", "Smith");
