@@ -37,7 +37,11 @@ printToDom('nuggetizer', 'mmmmmm');
 
 let bandNumber = 1;
 const addBand = (bandName) => {
+    //do stuff
+    //get band
+    //create text
    const bandText = `<h5>${bandNumber}. ${bandName}<h5>`;
+   //increment band number
    bandNumber++;
    printToDom('band-list', bandText);
    
